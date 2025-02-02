@@ -8,18 +8,18 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 const profile = {
-  text: "🎉 제 블로그에 방문해주신 여러분 모두 환영합니다 🎉",
+  text: "안녕하세요",
   img: profileImg,
-  name: "이시훈",
-  job: "프론트엔드 개발자",
-  mail: "mailto:cnsa201119@gmail.com",
-  github: "https://github.com/lee-sihun",
-  discord: "https://discordapp.com/users/479635064368398342",
+  name: "정사빈",
+  job: "ML/DL Researcher (Vision, NLP)",
+  mail: "mailto:im@jabim.io",
+  github: "https://github.com/https://github.com/JeongSabin",
+  discord: "https://discord.gg/aC5NzpYb",
 };
 
 export const metadata: Metadata = {
   title: "About",
-  description: "프론트엔드 개발자 이시훈에 대한 소개입니다.",
+  description: "About",
 };
 
 export default function About() {
