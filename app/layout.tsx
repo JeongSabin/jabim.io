@@ -7,18 +7,18 @@ import Providers from "@/components/Provider";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sihun.dev"),
+  metadataBase: new URL("https://jabim.io"),
   title: {
-    default: "시훈의 개발노트",
-    template: "%s | 시훈의 개발노트",
+    default: "요모조모",
+    template: "%s | 요모조모",
   },
-  description: "프론트엔드 개발자 시훈의 기술 블로그입니다.",
+  description: "사소한 거 기록하기",
   openGraph: {
-    title: "시훈의 개발노트",
-    description: "프론트엔드 개발자 시훈의 기술 블로그입니다.",
+    title: "요모조모",
+    description: "사소한 거 기록하기",
     type: "website",
-    siteName: "시훈의 개발노트",
-    url: "https://sihun.dev",
+    siteName: "요모조모",
+    url: "https://jabim.io",
     locale: "ko_KR",
     images: [
       {
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "시훈의 개발노트",
-    description: "프론트엔드 개발자 시훈의 기술 블로그입니다.",
+    title: "요모조모",
+    description: "사소한 거 기록하기",
     images: [
       {
         url: "/img/logo.jpg",
@@ -62,7 +62,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "시훈의 개발노트",
+              name: "요모조모",
               url: "https://sihun.dev",
             }),
           }}
