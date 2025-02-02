@@ -1,20 +1,11 @@
-# 💫 sihun.dev
-
-프론트엔드 개발자 이시훈의 기술 블로그입니다. [구경하러 가기](https://sihun.dev/blog)
-
-![sihun.dev](https://i.postimg.cc/Vvx4gMPG/2024-07-11-7-15-23.png)
+# 💫 jabim.io
+This blog was created by forking Sihoon Lee's development blog repository with his permission. 
+[Go to the originator repository](https://github.com/lee-sihun/sihun.dev)
 
 
-## 🚀 실행 방법
 
-```bash
-git clone https://github.com/lee-sihun/sihun.dev.git
-cd sihun.dev
-npm i
-npm run dev
-```
-
-## 🛠 기술 스택
+--------------------------------------------------------------------------------------
+## 🛠 Tech Stack
 
 - **프레임워크**: Next.js 14 (App Router)
 - **언어**: TypeScript
@@ -24,8 +15,7 @@ npm run dev
 - **댓글 기능**: Giscus
 - **배포**: Vercel
 
-## ✨ 주요 기능
-
+## ✨ Key features
 - SSG(Static Site Generation) 적용 
 - 반응형 디자인 (Tailwind CSS)
 - 다크 모드 지원 (next/themes)
