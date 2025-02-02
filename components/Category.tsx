@@ -6,7 +6,7 @@ interface CategoryProps {
 }
 
 const category: { title: string }[] = [
-  { title: "전체" },
+  { title: "All" },
   { title: "독서" },
   { title: "취미" },
   { title: "일상" },
