@@ -6,10 +6,10 @@ interface CategoryProps {
 }
 
 const category: { title: string }[] = [
-  { title: "All" },
-  { title: "Develop" },
-  { title: "Design" },
-  { title: "CS" },
+  { title: "전체" },
+  { title: "독서" },
+  { title: "취미" },
+  { title: "일상" },
   // { title: "PS" },
   { title: "Etc" },
 ];
